@@ -21,25 +21,27 @@
   />
 </p>
 
+<h3 align="center">A Sweet Newsletter (API REST)</h3>
+
 <div align="center">
   <img src="" alt="App gif" />
 </div>
 
-## :arrow_down: How to download (yarn)
+## :arrow_down: How to download
 ```bash
 git clone https://github.com/kauefraga/DoWhileChallenge.git
 cd DoWhileChallenge
-yarn
-yarn start
+yarn || npm install
+yarn start || npm start
 ```
 
 ## :computer: Technologies
 
-- [Typescript](https://www.typescriptlang.org)
 - [Express](https://expressjs.com)
+- [Jest](https://jestjs.io)
 - [Prisma](https://www.prisma.io)
 - [Sqlite](https://sqlite.org)
-- [Jest](https://jestjs.io)
+- [Typescript](https://www.typescriptlang.org)
 
 ## :memo: License
 
@@ -47,24 +49,6 @@ See the [LICENSE](https://github.com/kauefraga/DoWhileChallenge/blob/main/LICENS
 
 ---
 <div align="center" display="flex">
-  <img alt="Built with love" src="https://ForTheBadge.com/images/badges/built-with-love.svg">
-  <img alt="Made with javascript" src="https://ForTheBadge.com/images/badges/made-with-javascript.svg">
+  <img alt="Built with love" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
+  <img alt="Made with javascript" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg">
 </div>
-
-Registrar, deletar e alterar um usuário (API REST)
----------------------------------------
-
-RF
--
--
--
-
-RNF
--
--
--
-
-RN
--
--
--
