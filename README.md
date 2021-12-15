@@ -35,6 +35,12 @@ yarn || npm install
 yarn start || npm start
 ```
 
+## :test_tube: How to test
+```bash
+# Post install
+yarn test || npm test
+```
+
 ## :computer: Technologies
 
 - [Express](https://expressjs.com)
@@ -49,6 +55,6 @@ See the [LICENSE](https://github.com/kauefraga/DoWhileChallenge/blob/main/LICENS
 
 ---
 <div align="center" display="flex">
-  <img alt="Built with love" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
+  <img alt="Built with love" src="http://ForTheBadge.com/image  s/badges/built-with-love.svg">
   <img alt="Made with javascript" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg">
 </div>
