@@ -55,6 +55,6 @@ See the [LICENSE](https://github.com/kauefraga/DoWhileChallenge/blob/main/LICENS
 
 ---
 <div align="center" display="flex">
-  <img alt="Built with love" src="http://ForTheBadge.com/image  s/badges/built-with-love.svg">
-  <img alt="Made with javascript" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg">
+  <img alt="Built with love" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
+  <img alt="Made with typescript" src="http://ForTheBadge.com/images/badges/made-with-typescript.svg">
 </div>
