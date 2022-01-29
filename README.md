@@ -23,25 +23,22 @@
 
 <h3 align="center">A Sweet Newsletter (API REST)</h3>
 
-<div align="center">
-  <img src="" alt="App gif" />
-</div>
-
-## :arrow_down: How to download
+## ⬇️ How to download
 ```bash
 git clone https://github.com/kauefraga/DoWhileChallenge.git
 cd DoWhileChallenge
-yarn || npm install
-yarn start || npm start
+npm install
+npm start
 ```
+Or downloading with yarn? `yarn && yarn start`
 
-## :test_tube: How to test
+## ⚗️ How to test
 ```bash
-# Post install
-yarn test || npm test
+npm test
 ```
+Or testing with yarn? `yarn test`
 
-## :computer: Technologies
+## 💻 Technologies
 
 - [Express](https://expressjs.com)
 - [Jest](https://jestjs.io)
@@ -49,7 +46,7 @@ yarn test || npm test
 - [Sqlite](https://sqlite.org)
 - [Typescript](https://www.typescriptlang.org)
 
-## :memo: License
+## 📄 License
 
 See the [LICENSE](https://github.com/kauefraga/DoWhileChallenge/blob/main/LICENSE) for more information.
 
