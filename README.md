@@ -1,4 +1,4 @@
-<h1 align="center">DoWhile Challenge - Node (express)</h1>
+<h1 align="center">DoWhile2021 Challenge - Node (express)</h1>
 
 <p align="center">
   <img
@@ -21,7 +21,7 @@
   />
 </p>
 
-<h3 align="center">A Sweet Newsletter (API REST)</h3>
+<h3 align="center">Implementation of ´register/login´ routes (API REST)</h3>
 
 ## ⬇️ How to download
 ```bash
@@ -40,11 +40,16 @@ Or testing with yarn? `yarn test`
 
 ## 💻 Technologies
 
-- [Express](https://expressjs.com)
-- [Jest](https://jestjs.io)
-- [Prisma](https://www.prisma.io)
-- [Sqlite](https://sqlite.org)
-- [Typescript](https://www.typescriptlang.org)
+- 🔐 Passwords encryption with [Bcrypt](https://www.npmjs.com/package/bcrypt)
+- 🔥 [CORS](https://www.npmjs.com/package/cors) 🔥
+- 🧑‍🔧 [Commit lint](https://commitlint.js.org/)
+- 🤫 [Dotenv](https://www.npmjs.com/package/dotenv)
+- 🛣️ Routes with [Express](https://expressjs.com)
+- ⚗️ Tests with [Jest](https://jestjs.io)
+- 🔒 Authorization with [JWT](https://jwt.io)
+- 🪄 "ORM" with [Prisma](https://www.prisma.io)
+- 🗂️ Database with [Sqlite](https://sqlite.org)
+- 🧑‍💻 Developed on [TypeScript](https://www.typescriptlang.org) + [TS-Node-Dev](https://www.npmjs.com/package/ts-node-dev)
 
 ## 📄 License
 
