@@ -3,23 +3,34 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "tsnd --respawn --transpile-only src/index.ts",
+    "build": "yarn tsc",
+    "start": "yarn build && node dist/index.js",
+    "dev": "tsnd --respawn --transpile-only src/index.ts",
     "test": "jest",
-    "postinstall": "prisma generate --schema=./src/prisma/schema.prisma"
+    "orm:generate": "prisma generate --schema=./prisma/schema.prisma",
+    "orm:migrations": "prisma migrate dev",
+    "orm:introspect": "prisma db pull && yarn generate:orm"
   },
   "dependencies": {
-    "@prisma/client": "^3.6.0",
+    "@prisma/client": "^3.8.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
     "express": "^4.17.1",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^15.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.0.3",
+    "@types/jsonwebtoken": "^8.5.8",
     "@types/node": "^16.11.12",
     "commitlint": "^15.0.0",
     "jest": "^27.4.4",
-    "prisma": "^3.6.0",
+    "prisma": "^3.8.1",
     "ts-jest": "^27.1.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.3"
