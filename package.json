@@ -7,9 +7,9 @@
     "start": "yarn build && node dist/index.js",
     "dev": "tsnd --respawn --transpile-only src/index.ts",
     "test": "jest",
-    "orm:generate": "prisma generate --schema=./prisma/schema.prisma",
-    "orm:migrations": "prisma migrate dev",
-    "orm:introspect": "prisma db pull && yarn generate:orm"
+    "prisma:generate": "prisma generate --schema=./prisma/schema.prisma",
+    "prisma:migrations": "prisma migrate dev",
+    "prisma:introspect": "prisma db pull && echo 'if needed: yarn prisma:generate'"
   },
   "dependencies": {
     "@prisma/client": "^3.8.1",
